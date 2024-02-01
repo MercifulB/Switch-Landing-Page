@@ -1,0 +1,265 @@
+
+
+
+<header>
+    <nav>
+        <div class="logo">
+            <img src="nintendo-logo.png" alt="Nintendo Logo">
+        </div>
+        
+        <ul class="nav-links">
+            <li><a href="#features">Features</a></li>
+            <li><a href="#games">Games</a></li>
+            <li><a href="#buy-now">Buy Now</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="hero">
+<div class="hero-content">
+    <h1>Welcome to the World of Gaming</h1>
+    <p>Experience the versatility of the Nintendo Switch</p>
+    <a href="#buy-now" class="cta-button">Buy Now</a>
+</div>
+<div class="hero-image">
+    <img src="nintendo-switch-image.jpg" alt="Nintendo Switch">
+</div>
+</section>
+
+<section id="features">
+<h2>Key Features</h2>
+<div class="feature">
+    <img src="feature1-icon.png" alt="Feature 1">
+    <h3>Portable Gaming</h3>
+    <p>Play your favorite games anytime, anywhere.</p>
+</div>
+<div class="feature">
+    <img src="feature2-icon.png" alt="Feature 2">
+    <h3>Multiplayer Fun</h3>
+    <p>Connect with friends for local or online multiplayer.</p>
+</div>
+<div class="feature">
+    <img src="feature3-icon.png" alt="Feature 3">
+    <h3>Versatile Modes</h3>
+    <p>Switch between handheld, tabletop, and TV modes.</p>
+</div>
+</section>
+
+<section id="games">
+<h2>Popular Games</h2>
+<div class="game">
+    <img src="game1-cover.jpg" alt="Game 1">
+    <h3>The Legend of Zelda: Breath of the Wild</h3>
+    <p>An epic adventure in the kingdom of Hyrule.</p>
+</div>
+<div class="game">
+    <img src="game2-cover.jpg" alt="Game 2">
+    <h3>Super Mario Odyssey</h3>
+    <p>Join Mario on a globe-trotting 3D adventure.</p>
+</div>
+<div class="game">
+    <img src="game3-cover.jpg" alt="Game 3">
+    <h3>Animal Crossing: New Horizons</h3>
+    <p>Create your paradise on a deserted island.</p>
+</div>
+</section>
+
+<section id="buy-now">
+<h2>Get Your Nintendo Switch Today</h2>
+<p>Experience the joy of gaming with the Nintendo Switch. Order yours now!</p>
+<a href="order.html" class="cta-button">Order Now</a>
+</section>
+
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a background color and font for the whole page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Style the header and navigation bar */
+header {
+    background-color: #1f2537;
+    color: #fff;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style the hero section */
+#hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.hero-content {
+    flex: 1;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    color: #1f2537;
+}
+
+.hero-content p {
+    font-size: 18px;
+    color: #777;
+    margin-top: 10px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #1f2537;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.hero-image img {
+    max-width: 100%;
+}
+
+/* Style the feature section */
+#features {
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.feature img {
+    height: 80px;
+}
+
+.feature h3 {
+    font-size: 24px;
+    color: #1f2537;
+    margin-top: 10px;
+}
+
+.feature p {
+    font-size: 16px;
+    color: #777;
+}
+
+/* Style the games section */
+#games {
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+
+.game {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.game img {
+    max-width: 100%;
+}
+
+.game h3 {
+    font-size: 24px;
+    color: #1f2537;
+    margin-top: 10px;
+}
+
+.game p {
+    font-size: 16px;
+    color: #777;
+}
+
+/* Style the Buy Now section */
+#buy-now {
+    text-align: center;
+    padding: 40px;
+    background-color: #1f2537;
+    color: #fff;
+    border-radius: 5px;
+    margin: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#buy-now h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#buy-now p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #fff;
+    color: #1f2537;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    background-color: #ff5722;
+    color: #fff;
+}
+
+/* Style the footer */
+footer {
+    background-color: #1f2537;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+}
+
+/* Add responsive design and media queries as needed */
+
+https://codepen.io/budb/pen/mddKgJw
